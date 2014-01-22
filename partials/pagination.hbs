@@ -1,0 +1,13 @@
+<nav role="navigation" class="navigation paging-navigation">
+    <div class="nav-links">
+        {{#if prev}}
+            <div class="nav-next"><a href="{{pageUrl prev}}">Artículos más nuevos <span
+                    class="meta-nav">→</span></a></div>
+        {{/if}}
+        {{#if next}}
+            <div class="nav-previous"><a href="{{pageUrl next}}"><span class="meta-nav">←</span>Artículos más
+                antiguos</a></div>
+        {{/if}}
+
+    </div><!-- .nav-links -->
+</nav>
